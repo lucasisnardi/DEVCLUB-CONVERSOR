@@ -58,6 +58,11 @@ function changeCurrency() {
    
     } 
 
+    let libraImg = document.querySelector(".currency-img")
+
+    let novaLargura = "50"
+
+    libraImg.style.width = novaLargura +"px"
     if (currencySelect.value == "libra") {
         currencyName.innerHTML = "Libra"
         currencyImage.src="./assets/libra.jpg"
